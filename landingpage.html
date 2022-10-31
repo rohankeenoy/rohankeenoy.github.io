@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="index.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    
+
+</head>
+<body>
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+     <header>
+        <div class="container1">
+          <nav class="navbar">
+            <div class="circle">
+                <div class ="logo"> </div>
+                <div class="text">
+                    <p> Rohan Keenoy -  Software Developer - </p>
+                </div>
+                <script>
+                    const text = document.querySelector('.text p');
+                    text.innerHTML = text.innerText.split("").map(
+                    (char, i) => 
+                    `<span style="transform:rotate(${i * 10.0}deg)">${char}</span>`
+                    ).join("")
+                </script>
+            </div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul>
+                <li><a href="index.html">Hi!</a></li>
+                <li><a href="stuffIveMade.html">Stuff I've made</a></li>
+                <li><a href="classesIveTaken.html">Classes I Took</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+</body>
+</html>

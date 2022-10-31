@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="index.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <title>Classes Taken</title>
+    <!-- Supporting Files: styles.css-->
+</head>
+<body>
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+     <header>
+        <div class="container1">
+          <nav class="navbar">
+            <div class="circle">
+                <div class ="logo"> </div>
+                <div class="text">
+                    <p> Rohan Keenoy -  Software Engineer - </p>
+                </div>
+                <script>
+                    const text = document.querySelector('.text p');
+                    text.innerHTML = text.innerText.split("").map(
+                    (char, i) => 
+                    `<span style="transform:rotate(${i * 10.0}deg)">${char}</span>`
+                    ).join("")
+                </script>
+            </div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul>
+                <li><a href="index.html">Hi!</a></li>
+                <li><a href="stuffIveMade.html">Stuff I've made</a></li>
+                <li><a href="classesIveTaken.html">Classes I Took</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </header>
+<div class="welcome">
+    <h1> Classes I've Taken </h1>
+    <hr>
+    <p> Here are some of the class I have taken over my course of university. <p>
+    </p>
+</div>
+    <ul id ="classList">
+        <li id="heading">
+            <h2>Applicable Tech Coursework (as of Fall 2022) :</h2>
+            <hr>
+        </li>
+        <ul>
+            <li>BIO 2000 Introduction to Computational
+                Biology</li>
+            <li>CS 130 The World of Computer Science</li>
+            <li>CS 131 Introduction to Computational Thinking</li>
+            <li>CS 235 Data Structures and Algorithms</li>
+            <li>CS 2261 Object Oriented Programming </li>
+            <li>CS 2700 Computer Organization and Architecture</li>
+            <li>CS 2750 System Programming and Tools</li>
+            <li>CS 3010 Web Full Stack Development</li>
+            <li>IS 139 Web Publishing</li>
+            <li>IS 229 Unix/Linux</li>
+            <li>IS 225 Database Management</li>
+        </ul>
+    </ul>
+    <br>
+    <ul id ="classList">
+        <li id="heading">
+            <h2>Applicable science/mathematics:</h2>
+            <hr>
+        </li>
+        <ul>
+            <li>MTH314 Discrete Mathemeatics</li>
+            <li>MTH1320 Statistics</li>
+            <li>MTH161 Calculus I</li>
+            <li>BIO 515 Evolution</li>
+            <li>BIO 235 Genetics</li>
+            <li>BIO 1550 Essentials of Biology I</li>
+            <li>BIO 1560 Essentials of Biology II</li>
+            <li>CHEM 1100 General Chemistry I </li>
+            <li>CHEM 1110 General Chemistry II</li>
+        </ul>
+    </ul>
+    <br>
+
+    <ul id ="classList">
+        <li id="heading">
+            <h2>Schedule for Spring 2023:</h2>
+            <hr>
+        </li>
+        <ul>
+            <li>CS 3410 Video Game Design and Development</li>
+            <li>CS 4200 Python for Scientific Computing and Data Science</li>
+            <li>CS 4250 Programming Languages</li>
+            <li>MTH 4005 Exploratory Data Analysis with R</li>
+            <li>CS 4011 Web Development with Advanced JavaScript</li>
+        </ul>
+    </ul>
+    <br>
+
+
+    <footer>
+        <br><br>
+        <p>&#169 Rohan Keenoy </p>
+    </footer>
+</body>
+</html>
